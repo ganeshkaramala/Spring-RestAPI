@@ -8,5 +8,5 @@
 
 	<!-- Scans the classpath of this application for Spring annotations such 
 		as @Component, @Service, @Controller and @Repositry to deploy as beans. -->
-	<context:component-scan base-package="info.ganeshkaramala.spring.restapi" />
+	<context:component-scan base-package="io.spring.restapi" />
 </beans>

@@ -40,19 +40,14 @@
 		</dependency>
 		<!-- Spring -->
 
-		<!-- MongoDB -->
+		<!-- MySql DB -->
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
-			<groupId>org.mongodb</groupId>
-			<artifactId>mongo-java-driver</artifactId>
-			<version>2.13.3</version>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>5.1.6</version>
 		</dependency>
-
-		<dependency>
-			<groupId>org.mongodb</groupId>
-			<artifactId>bson</artifactId>
-			<version>2.13.3</version>
-		</dependency>
-		<!-- MongoDB -->
+		<!-- MySql DB -->
 
 		<!-- Logging -->
 

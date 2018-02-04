@@ -1,4 +1,4 @@
-package info.ganeshkaramala.spring.restapi;
+package io.spring.restapi;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,9 +17,9 @@ public class AppController {
 
 		String welcome = "";
 		if (name != null && name.length() > 0) {
-			welcome = "<h1>Welcome " + name + "!</h1>";
+			welcome = "<h1>Welcome Spring REST API Tutorial" + name + "!</h1>";
 		} else {
-			welcome = "<h1>Welcome!</h1>";
+			welcome = "<h1>Welcome to Spring REST API Tutorial!</h1>";
 		}
 
 		return new ResponseEntity<String>(welcome, HttpStatus.OK);
